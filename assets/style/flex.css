@@ -47,6 +47,16 @@
   flex-grow: 1;
 }
 
+.rodape {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rodape__logo {
+  align-self: end;
+}
+
 @media (min-width: 720px) {
   .banner {
     grid-template-columns: calc(50% -0.75rem) auto auto;
